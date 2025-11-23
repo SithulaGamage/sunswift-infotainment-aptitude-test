@@ -61,25 +61,6 @@ This tests:
 - UX & UI reasoning
 - Real world engineering understanding
 
---- 
-
-## **What You Should Submit**
-
-Please submit a folder containing:
- **1. `/q1/` – Telemetry Parsing & UI**
-- Your React component(s)
-- Any helper functions
-- A short comment at the top explaining your approach
-- Do not focus too much on styling. clarity > aesthetics
-
-**2. `/q2/` – Backend API**
-- Your Express server code
-- Clear comments explaining design decisions
-- A brief description at the top of the file
-
- **3. `/q3/` – Written Response**
-- A `.md` file has been prepared for you, please add your answers.
-
 ---
 ## **How to Submit**
 Please clone this repository and share the link to this repo to my email z5604763@ad.unsw.edu.au.
