@@ -63,6 +63,6 @@ This tests:
 
 ---
 ## **How to Submit**
-Please clone this repository and share the link to this repo to my email z5604763@ad.unsw.edu.au.
+Please clone this repository and email the link to the repo to my email z5604763@ad.unsw.edu.au.
 
 Feel free to contact me with the email above if you have any questions. 
