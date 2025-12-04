@@ -1,0 +1,184 @@
+/* main container */
+.dashboard-container {
+    background-color: #f9fafb;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.dashboard-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1600px;
+    box-sizing: border-box;
+}
+
+/* header */
+.dashboard-header {
+    font-size: 28px;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 32px;
+}
+
+/* metrics grid */
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-bottom: 32px;
+}
+
+/* metric card */
+.metric-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.metric-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.metric-icon.speed {
+    background-color: #eff6ff;
+}
+
+.metric-icon.battery {
+    background-color: #f0fdf4;
+}
+
+.metric-icon.temperature {
+    background-color: #fff7ed;
+}
+
+.metric-icon.gps {
+    background-color: #faf5ff;
+}
+
+.metric-label {
+    color: #6b7280;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.metric-value {
+    font-size: 32px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.metric-unit {
+    font-size: 18px;
+    color: #6b7280;
+}
+
+.metric-coordinates {
+    font-size: 32px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.metric-no-signal {
+    font-size: 16px;
+    font-weight: 500;
+    color: #9ca3af;
+}
+
+.metric-card.overheat {
+    background-color: #ffe5e5;
+    border: 2px solid #ff4d4d;
+}
+.metric-card.overheat .metric-value {
+    color: #b30000;
+}
+
+/* charts grid */
+.charts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.chart-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.chart-card.full-width {
+    grid-column: 1 / -1;
+}
+
+.chart-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 20px;
+}
+
+/* custom tooltip */
+.custom-tooltip {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 8px 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tooltip-label {
+    color: #6b7280;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.tooltip-value {
+    font-size: 13px;
+    font-weight: 500;
+    margin: 2px 0;
+}
+
+/* warning alert */
+.warning-alert {
+    margin-top: 20px;
+    padding: 16px;
+    background-color: #fef2f2;
+    border: 1px solid #fecaca;
+    border-radius: 8px;
+    color: #991b1b;
+    font-weight: 500;
+}
+
+/* SVG icons */
+.icon-speed {
+    stroke: #3b82f6;
+}
+
+.icon-battery {
+    stroke: #10b981;
+}
+
+.icon-temperature {
+    stroke: #f97316;
+}
+
+.icon-gps {
+    stroke: #a855f7;
+}
